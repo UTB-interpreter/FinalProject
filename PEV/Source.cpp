@@ -1,5 +1,6 @@
-/*	+-------------------------------------------------------------------------------------------------------------------+
-	| Hello -- program to count occurrences of a number in a sorted vector with,										|
+/*
+	+-------------------------------------------------------------------------------------------------------------------+
+	|	Hello -- program to count occurrences of a number in a sorted vector with,										|
 	|		   print the min number to max number on it, and print how many times duplicated.							|
 	|																													|
 	|Author: Mohammed Azad Sabgha, Younis Shakir, Masoud Qubad, and Naz Zana Majeed.									|
@@ -14,10 +15,13 @@
 #include <iostream>		// to use IOSTREAM library
 #include <vector>		// to use VECTOR library which's being used like arrays
 #include <iomanip>		// to use IOSMANIP library to use some external C++ features like making space
+#include "Header.h"
 
 using namespace std;	// to avoid writting ( std:: ) every time  
 
 int main() {			// main function that run's when the program start
+
+	message();			// it is a function that linked by Header.h from message.cpp to show my message
 
 	int x;				// intialize (x) variable. we do not need to give a value to x at this moment!
 	vector<int> v;		// making a vector named (v) that we store intiger values on it.
