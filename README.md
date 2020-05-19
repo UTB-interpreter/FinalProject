@@ -13,3 +13,7 @@
 * chmod +x setup.py
 * python setup.py
 * ./COP
+
+## Using in WindowsOS:
+* Open the master folder
+* Click on COP.bat
