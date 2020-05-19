@@ -10,5 +10,5 @@
 ## Set-up and using on Linux:
 * cd FinalProject-master
 * cd PEV
-* ./setup.py
+* python setup.py
 * ./COP
