@@ -10,5 +10,6 @@
 ## Set-up and using on Linux:
 * cd FinalProject-master
 * cd PEV
+* chmod +x setup.py
 * python setup.py
 * ./COP
