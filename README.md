@@ -8,7 +8,7 @@
 * git clone https://github.com/UTB-interpreter/FinalProject
 
 ## Set-up and using on Linux:
-* cd PEV
 * cd FinalProject-master
+* cd PEV
 * ./setup.py
 * ./COP
