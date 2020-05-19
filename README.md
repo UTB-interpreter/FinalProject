@@ -10,12 +10,12 @@
 * git clone https://github.com/UTB-interpreter/FinalProject.git
 
 ## Set-up and using on Linux:
-* cd FinalProject-master
+* cd FinalProject
 * cd PEV
-* chmod +x setup.py
-* python setup.py
+* chmod +x Setup.py
+* python Setup.py
 * ./COP
 
 ## Using in WindowsOS:
-* Open the master folder
+* Open the FinalProject folder
 * Click on COP.bat
