@@ -1,17 +1,16 @@
-/*
-	+-------------------------------------------------------------------------------------------------------------------+
-	|	Hello -- program to count occurrences of a number in a sorted vector with,										|
-	|		   print the min number to max number on it, and print how many times duplicated.							|
-	|																													|
-	|Author: Mohammed Azad Sabgha, Younis Shakir, Masoud Qubad, and Naz Zana Majeed.									|
-	|																													|
-	|																													|
-	|purpose: To The Final Prpject.																						|
-	|																													|
-	|Usage:																												|
-	|		run the program and input some value it keeps asking to input a value until you put a value less than 1		|
-	+-------------------------------------------------------------------------------------------------------------------+
+/**
+@author Mohammed Azad, Younis Shakir, Masoud Qubad, Naz Zana.
+@version 1.0
+@mainpage Interpreter Project
+@section Introduction about using Count Occurrence program
+@brief program to count occurrences of a number in a sorted vector with, print the min number to max number on it, and print how many times duplicated.
+@details Usage: run the program and input some value until you put a value less than 1.
+@bug If you are using Linux OS you will get an error because we have used windows.h library
+@warning If you are using Linux OS, install Wine on your Linux System
+@param For The Final Project
+
 */
+
 #include <iostream>		// to use IOSTREAM library
 #include <vector>		// to use VECTOR library which's being used like arrays
 #include <iomanip>		// to use IOSMANIP library to use some external C++ features like making space

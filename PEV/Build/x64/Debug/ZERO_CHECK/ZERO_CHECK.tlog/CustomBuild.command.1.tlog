@@ -1,0 +1,10 @@
+^C:\USERS\RAM COMPUTER\DESKTOP\FINALPROJECT\PEV\BUILD\CMAKEFILES\B95B255D39E1424CDD97ED21CAAEDEB5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Ram Computer/Desktop/FinalProject/PEV" "-BC:/Users/Ram Computer/Desktop/FinalProject/PEV/Build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Ram Computer/Desktop/FinalProject/PEV/Build/COP.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

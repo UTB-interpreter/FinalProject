@@ -1,0 +1,10 @@
+^C:\USERS\RAM COMPUTER\DESKTOP\FINALPROJECT\PEV\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Ram Computer/Desktop/FinalProject/PEV" "-BC:/Users/Ram Computer/Desktop/FinalProject/PEV/Build" --check-stamp-file "C:/Users/Ram Computer/Desktop/FinalProject/PEV/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
