@@ -3,6 +3,7 @@
 ## dependencies:
 * C++
 * Python (required for LinuxOS only)!
+* Wine   (required for LinuxOS only)!
 
 ## How to install on Ubuntu or Mac and if you are using (git) on your WinodwsOS:
 * cd Desktop
