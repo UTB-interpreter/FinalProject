@@ -4,7 +4,7 @@ project(COP)
 
 add_library(
 message STATIC
-header.h
+Header.h
 message.cpp)
 
 add_executable(COP Source.cpp)
