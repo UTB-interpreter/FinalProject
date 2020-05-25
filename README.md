@@ -4,7 +4,7 @@
 * C++
 * Python (required for LinuxOS only)!
 * Wine   (required for LinuxOS only)!
-* Batch  (required for WindowsOS only)!
+* Batch Script (required for WindowsOS only)!
 
 ## How to install on Ubuntu or Mac and if you are using (git) on your WinodwsOS:
 * cd Desktop
