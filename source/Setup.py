@@ -14,3 +14,4 @@ else:                                   # else
         print("[+] Done!")              # if yes print done!
     else:                               # or not print and error
         print "Error[!] Make sure that you have installed Wine!" 
+        

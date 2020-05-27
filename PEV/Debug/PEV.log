@@ -1,6 +1,4 @@
-﻿  Source.cpp
-  message.cpp
+﻿  message.cpp
 C:\Users\Ram Computer\Desktop\FinalProject\PEV\message.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Ram Computer\Desktop\FinalProject\PEV\message.cpp(11,9): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
-  Generating Code...
   PEV.vcxproj -> C:\Users\Ram Computer\Desktop\FinalProject\Debug\PEV.exe

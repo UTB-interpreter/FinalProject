@@ -75,6 +75,6 @@ int main() {			// main function that run's when the program start
 		cout << setw(5) << vv.at(i) << " | " << vcount.at(i) << endl;	// make a space and print the value of the (i)index at the vv vector, print " | " and print the value of the (i)index at the vcount vector then end the line
 	}																	// close this block
 
-	cin.ignore(2);														// in windowsOS if you do not ask the user to input a value at the end the terminal pop up and close at a short time  
+	system("pause");
 	return 0;															// In C and C++ programs the main function is of type int and therefore it should return an integer value
 }																		//  thank for your attention ^_^
