@@ -1,7 +1,23 @@
 #include "Header.h"										// our header file 
 #include <iostream>										// gives c++ features like cout
 #include <string>										// allows us to have a variable could hold a string
-#include <Windows.h>									// has the Sleep function
+
+#ifdef _WIN32  //deciding how to handle Sleep based on the OS
+    #include <windows.h>
+
+    void sleep(unsigned milliseconds)
+    {
+        Sleep(milliseconds);
+    }
+#else
+    #include <unistd.h>
+
+    void Sleep(unsigned milliseconds)
+    {
+        usleep(milliseconds * 1000); // takes microseconds
+    }
+#endif
+
 
 void message() {										// the message function
 	std::string str = "We said Hello World first! \n";	// initialize str variable that holds a string
